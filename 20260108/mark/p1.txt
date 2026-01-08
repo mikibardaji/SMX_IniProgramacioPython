@@ -19,5 +19,6 @@ print ("el operadur + en int es resta ->", resta)
 Multiplicar = valor1 * valor2 * valor3
 print ("el operadur + en int es Multiplicar ->", Multiplicar)
 
-Dividir = valor1 / valor2 / valor3
+Dividir = valor1 / valor2
 print ("el operadur + en int es Dividir ->", Dividir)
+
