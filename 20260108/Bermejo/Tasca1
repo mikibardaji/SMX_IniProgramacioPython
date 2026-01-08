@@ -1,0 +1,7 @@
+print("Pon su nombre")
+print("Pon su edad")
+print("Dime donde vives")
+Nom = input()
+Edad = input()
+ciudad = input()
+print("Hola", Nom, "espero que puedas disfrutar de este bonito dia"), print("Vaya tienes", Edad, " años pues aparentas menos"), print("debe ser complicado aparcar en", ciudad, ".") 
