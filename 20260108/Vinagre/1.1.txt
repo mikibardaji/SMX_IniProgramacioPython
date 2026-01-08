@@ -1,0 +1,24 @@
+print('pon 1 valor')
+valor1 = input()
+print('pon 2 valor')
+valor2 = input()
+print('pon 3 valor')
+valor3 = input()
+
+
+valor1 = int(valor1)
+valor2 = int(valor2)
+valor3 = int(valor3)
+
+suma = valor1 + valor2 + valor3 
+print ("el operador + en int en suma", suma)
+
+resta = valor1 + valor2 + valor3 
+print ("el operador + en int en suma", resta)
+
+multiplicacion = valor1 + valor2 + valor3 
+print ("el operador + en int en suma", multiplicacion)
+
+dividir = valor1 + valor2 + valor3 
+print ("el operador + en int en suma", dividir)
+
