@@ -1,0 +1,18 @@
+# coding: utf-8
+# Your code here!
+Hello = "Hola mon"
+nom = "Miquel Angel" #definir una variable que es diu nom i assignarli valor "Miquel Angel"
+cognom = 'Bardaji'
+edat = 50
+print('Hello World2', 'Goodbye')
+print('Soc el miquel angel i tinc ', 456 , 'anys')
+print(3+3)
+print(6*3)
+print(7%3) # % ens dona el residu de la divisió
+print(Hello)
+print(nom)
+edat = "Tinc 50 anys"
+print(edat)
+#asignacion multiple
+nom, cognom, edat = "Brian", "Bermejo", 50
+print(edat1)
