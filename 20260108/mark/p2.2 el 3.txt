@@ -1,0 +1,6 @@
+preu = 100
+iva = 0.21
+
+preu_final = preu + (preu * iva)
+
+print("Precio con iva es", preu_final)
