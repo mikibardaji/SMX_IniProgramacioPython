@@ -1,0 +1,5 @@
+segons = 367
+minuts = segons // 60
+segons_sobrants = segons % 60
+
+print(f"{segons} segons són {minuts} minuts i {segons_sobrants} segons")
