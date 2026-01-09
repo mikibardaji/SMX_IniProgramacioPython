@@ -1,0 +1,2 @@
+nom = input()
+print ("Benvigut " + nom + " a la programació")
