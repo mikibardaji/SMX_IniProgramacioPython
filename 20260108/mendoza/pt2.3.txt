@@ -1,0 +1,4 @@
+preu1 = float(input())
+iva = 0.21
+preu_final = preu1 + (iva * preu1)
+print ("El preu final amb iva és" , preu_final)
