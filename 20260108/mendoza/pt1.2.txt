@@ -18,3 +18,12 @@ print ("El valor del operdor es", Multiplicar)
 
 Dividir = valor1 / valor2 
 print ("El valor del operdor es", Dividir)
+
+Moduls = valor1 % valor2
+print ("El valor del operador es", Moduls)
+
+Exponente = valor1 ** valor3
+print ("El valor del operador es", Exponente)
+
+Division2 = valor1 // valor2
+print ("El valor del operador es", Division2)
