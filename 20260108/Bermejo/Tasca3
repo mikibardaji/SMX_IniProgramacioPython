@@ -1,6 +1,0 @@
-Valor = int(input())
-Valor1 = int(input())
-porcentajeMas = Valor1 / 100
-laSuma = Valor*porcentajeMas
-Total = Valor+laSuma 
-print("Me compre una tele con precio base", Valor, "Euros"), print("y el porcentaje es", Valor1, "%"), print("En total e pagado", Total, "Euros")

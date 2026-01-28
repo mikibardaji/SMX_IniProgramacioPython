@@ -1,4 +1,0 @@
-print("Bienvenido")
-nombre = input()
-print (nombre)
-
