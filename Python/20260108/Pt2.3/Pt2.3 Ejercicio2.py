@@ -1,5 +1,0 @@
-nombre = input("Pon tu nomre")
-print("Todo en Majuscula")
-print(nombre.upper())
-print("a hora en minuscula")
-print(nombre.lower())
