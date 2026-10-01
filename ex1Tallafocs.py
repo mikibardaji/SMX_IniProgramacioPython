@@ -5,7 +5,7 @@ Dades a utilitzar: Una variable de text per a la IP del jugador i una altra per 
 Objectiu: Mostra el missatge "Connexió bloquejada" si les dues adreces IP són iguals. En cas contrari, mostra "Connexió permesa".
 
 """
-#ip bot registrado
+#dip bot registrado
 ipBot = "192.168.1.30"
 ipJugador = input("Pon l'adreça ip? ")
 if (ipJugador==ipBot):
