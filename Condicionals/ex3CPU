@@ -1,0 +1,19 @@
+"""
+ Alerta de sobreescalfament de la CPU
+El servidor central que allotja les partides multijugador té un sensor tèrmic per evitar que el maquinari es faci malbé si es col·lapsa de feina.
+Dades a utilitzar: Una variable decimal (amb decimals) que representa la temperatura actual de la CPU en graus Celsius.
+Objectiu: 
+Si la temperatura és estrictament superior a 85.0 graus, el sistema ha d'emetre l'alerta "Perill: Servidor calentat!".
+Si la temperatura és entre 75 i 85, ha de sortir "ALERTA: Servidor esta calentant-se!. Activem refrigeració". I s’ha de restar 10 graus al servidor, mostrant la nova temperatura
+Si és menor aquest llindar, ha de mostrar "Temperatura de la CPU estable".
+"""
+gradosCPU = float(input("Introduce la temperatura del CPU? "))
+
+if gradosCPU>= 75 and gradosCPU<=85.2:
+    gradosCPU = gradosCPU - 10
+    print("Alerta servidor calentandose activo refrigerios")
+    print(f" ahora la temperata es {gradosCPU}º")
+elif gradosCPU > 85:
+    print("Peligro servidor calentando")
+else:
+    print(f" {gradosCPU} menos de 75 funcionando correctamente")
