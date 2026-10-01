@@ -1,0 +1,7 @@
+"""
+     Control de vida i resurrecció (Respawn)
+En un joc d'acció cooperatiu en línia, quan la vida d'un personatge baixa a zero, el servidor de la partida ha de gestionar què passa amb ell segons els seus recursos.
+Dades a utilitzar: Una variable sencera per a la salut del jugador i una altra variable sencera per al nombre de vides extres que li queden.
+Objectiu: Si la vida és menor o igual a 0 i encara li queda alguna vida extra (més gran que 0), s'ha de mostrar "Reapareixent al punt de control". Si la vida és menor o igual a 0 però ja no li queden vides extres, es mostrarà "Game Over". Si la vida és major que 0, es mostrarà "Jugant normalment".
+
+"""
