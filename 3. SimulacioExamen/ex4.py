@@ -15,6 +15,8 @@ elif num_aleatori == 12:
     carta = "Q"
 elif num_aleatori == 13:
     carta = "K"
+elif num_aleatori == 2:
+    carta = "2"
 else:
     # Si és del 2 al 10, passem el número a text (string) per poder-lo concatenar després
     carta = str(num_aleatori)

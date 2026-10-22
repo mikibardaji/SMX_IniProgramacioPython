@@ -15,11 +15,11 @@ if opcio == "I":
     revisio = input("Has passat la revisió anual? (SI/NO): ").upper().strip()
     km = int(input("Quants km fa que l’has passat?: "))
     
-    if revisio == "SI" and km < 5000:
+    if revisio.upper() == "SI" and km < 5000:
         print("Perfecte")
     elif revisio == "SI" and km >= 5000 and km <= 7000:
         print("Recorda que a partir dels 7000 hauries de tornar a passar-la")
-    else:
+    elif revisio == "NO" or km>7000:
         print("Has de millorar el manteniment")
 
 # ==========================================

@@ -2,7 +2,7 @@
 codi = input("Introdueix el codi de la mostra biològica: ")
 
 # Extraiem el tipus de microbi (els 3 primers caràcters)
-tipus_microbi = codi[0:3]
+tipus_microbi = codi[:3]
 
 # Extraiem l'any de recollida (caràcters de la posició 4 a la 7, recordant que el guió és la posició 3)
 # En el patró BAC-2026..., el '2' és la posició 4 i el '6' és la 7. En Python s'indica [4:8] perquè l'últim no s'inclou.

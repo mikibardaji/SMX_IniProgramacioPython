@@ -27,15 +27,15 @@ else:
 
 # Comprovació de viatger menor amb prioritat A
 # Mirem si l'edat és menor de 18 I si la posició [0] del nom és una 'A'
-if edat < 18 and nom_complet[0:1] == "A":
+if edat < 18 and (nom_complet[0:1] == "A" or  nom_complet[0:1] == "a"):
     print("Atenció: Viatger menor amb prioritat A")
 
 # ==========================================
 # 4. FACTOR ALEATORI (SORTEIG REVISIÓ)
 # ==========================================
 # Generem un número aleatori entre 1 i 5
-sorteig = random.randint(1, 5)
-
+sorteig = random.randint(1, 6)
+print(sorteig)
 if sorteig == 3:
     print("Codi Vermell: La teva maleta ha estat seleccionada per a una revisió aleatòria.")
 else:
