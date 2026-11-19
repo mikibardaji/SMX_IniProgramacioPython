@@ -7,7 +7,7 @@ Si dius que no, surt.
 Al sortir ha de dir quantes habitacions tens, 
 i quant medeix la teva casa
 """
-respuesta=""
+respuesta="SI"
 contHabitaciones=0
 metrosAcumHabitacion=0
 metrosHabitacionSola=0
